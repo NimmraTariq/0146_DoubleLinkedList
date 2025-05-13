@@ -10,7 +10,7 @@ struct Node {
 };
 
 // START pointer initialization
-Node *START = NULL;
+Node *START  = NULL;
 
 // Function to check if list is empty
 bool listEmpty() {
