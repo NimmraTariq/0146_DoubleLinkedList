@@ -192,7 +192,7 @@ int main ()
             case '6':
                 return 0;
             default:
-                   cout << "\nInvlid option" << endl;
+                   cout << "\nInvlid option" << endl ;
                    break;
             }
 
