@@ -156,7 +156,7 @@ void searchData() {
 }
 
 // Main program loop
-int main() 
+int main () 
 {
     while (true) {
         try {
