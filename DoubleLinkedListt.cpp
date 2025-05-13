@@ -104,7 +104,7 @@ void deleteNode() {
 // Function to display all records in ascending order
 void traverse() {
     if (listEmpty()) {
-        cout << "\nList is empty" << endl;
+        cout << "\nList is empty" << end ;
         return;
     }
 
