@@ -14,7 +14,7 @@ Node *START  = NULL;
 
 // Function to check if list is empty
 bool listEmpty() {
-    return (START == NULL);
+    return (START == NULL) ;
 }
 
 // Function to search for a node by roll number
