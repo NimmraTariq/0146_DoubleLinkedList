@@ -73,7 +73,7 @@ void addNode() {
 // Function to delete a node by roll number
 void deleteNode() {
     if (listEmpty()) {
-        cout << "List is empty" << endl;
+        cout << "List is empty" << endl ;
         return;
     }
 
