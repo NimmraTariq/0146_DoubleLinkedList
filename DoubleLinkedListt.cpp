@@ -18,7 +18,7 @@ bool listEmpty() {
 }
 
 // Function to search for a node by roll number
-bool search(int rollNo, Node **previous, Node **current) {
+bool search(int rollNo, Node **previous, Node **current)  {
     *previous = NULL;
     *current = START;
     while (*current != NULL && (*current)->noMhs != rollNo) {
