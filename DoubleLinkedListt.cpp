@@ -138,7 +138,7 @@ void revtraverse() {
 void searchData() {
     if (listEmpty()) {
         cout << "\nList is empty" << endl;
-        return;
+        return ;
     }
 
     int rollNo;
