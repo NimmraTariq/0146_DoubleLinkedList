@@ -37,7 +37,7 @@ void addNode() {
     cin >> newNode->name;
 
     // Duplicate check
-    Node *prev, *curr;
+    Node *prev, *curr ; 
     if (search(newNode->noMhs, &prev, &curr)) {
         cout << "\033[31mDuplicate roll numbers not allowed\033[0m" << endl;
         delete newNode;
