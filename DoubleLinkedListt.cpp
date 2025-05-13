@@ -31,7 +31,7 @@ bool search(int rollNo, Node **previous, Node **current)  {
 // Function to add a new node
 void addNode() {
     Node *newNode = new Node();
-    cout << "\nEnter the roll number of the student: ";
+    cout << "\nEnter the roll number of the student: " ; 
     cin >> newNode->noMhs;
     cout << "Enter the name of the student: ";
     cin >> newNode->name;
