@@ -174,7 +174,7 @@ int main ()
             switch (ch) {
             case '1':
                 addNode();
-                break;
+                break ;
             case '2':
                 deleteNode();
                 break;
