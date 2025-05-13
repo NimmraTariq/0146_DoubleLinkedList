@@ -46,7 +46,7 @@ void addNode() {
 
     // Insert at beginning if list is empty or new node is smallest
     if (START == NULL || newNode->noMhs <= START->noMhs) {
-        newNode->next = START;
+        newNode->next = START ;
         newNode->prev = NULL;
         if (START != NULL)
             START->prev = newNode;
